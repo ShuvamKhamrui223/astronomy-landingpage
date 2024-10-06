@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: var(--main-color);
+}
+
+html::-webkit-slider-thumb {
+  background-color: aliceblue;
+  border-radius: 2rem;
+}
+
+:root {
+  --main-color: hsl(45, 59%, 24%);
+}
+
+.hero {
+  background-image: url("/assets/banner.jpg");
+  background-size: cover;
+}
+
+footer {
+  background-image: url("/assets/footer_banner_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
